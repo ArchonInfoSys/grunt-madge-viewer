@@ -1,14 +1,14 @@
 {
-  "name": "madge-viewer",
+  "name": "grunt-madge-viewer",
   "version": "0.1.0",
-  "description": "Simple views of your dependencies as mapped by MaDGe",
+  "description": "Grunt task to create simple views of your dependencies as mapped by MaDGe as a build artifact.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArchonInfoSys/madge-viewer.git"
+    "url": "https://github.com/ArchonInfoSys/grunt-madge-viewer.git"
   },
   "keywords": [
     "dependency",
@@ -20,7 +20,7 @@
   "author": "Archon Information Systems",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ArchonInfoSys/madge-viewer/issues"
+    "url": "https://github.com/ArchonInfoSys/grunt-madge-viewer/issues"
   },
-  "homepage": "https://github.com/ArchonInfoSys/madge-viewer"
+  "homepage": "https://github.com/ArchonInfoSys/grunt-madge-viewer"
 }
