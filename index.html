@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/3.0.0/knockout-min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<meta charset="utf-8">
+	<title>JS Bin</title>
+</head>
+<body>
+	<ul class="dependency-list" data-bind="foreach: modules">
+		<li class="module">
+			<h2 class="togglable" data-bind="toggle: isOpen, attr: { 'id' : 'dep-' + id }">
+				<span class="dependents-count" data-bind="text: dependents.length"></span>
+				<span data-bind="text: id"></span>
+			</h2>
+			<ul data-bind="slideToggle: isOpen, foreach: dependents">
+				<li class="dependent">
+					<a data-bind="text: id, attr: { 'href' : '#dep-' + id }">
+					</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<script>
+	</script>
+</body>
+</html>
