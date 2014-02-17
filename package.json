@@ -1,0 +1,26 @@
+{
+  "name": "madge-viewer",
+  "version": "0.1.0",
+  "description": "Simple views of your dependencies as mapped by MaDGe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArchonInfoSys/madge-viewer.git"
+  },
+  "keywords": [
+    "dependency",
+    "analysis",
+    "amd",
+    "requirejs",
+    "modules"
+  ],
+  "author": "Archon Information Systems",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArchonInfoSys/madge-viewer/issues"
+  },
+  "homepage": "https://github.com/ArchonInfoSys/madge-viewer"
+}
